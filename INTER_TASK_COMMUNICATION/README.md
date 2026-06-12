@@ -26,3 +26,23 @@ This section contains FreeRTOS communication and synchronization mechanisms betw
 ## RTOS
 
 - FreeRTOS Kernel
+
+
+# Sending Complex Data Via Queue
+
+## Objective
+Transfer a structure containing sensor data through a FreeRTOS queue.
+
+## Data Structure
+
+- Temperature = 39
+- Humidity = 67
+- Pressure = 87
+
+## Result
+
+Data successfully transmitted and received via queue.
+
+### CoolTerm Output
+
+![Output](Output.png)
